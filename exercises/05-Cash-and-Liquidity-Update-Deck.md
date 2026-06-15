@@ -1,43 +1,43 @@
 # Exercise 5 — Cash & Liquidity Update Deck
 
 - **App:** PowerPoint (with Copilot) — single exercise
-- **Workflow:** Turn the cash position and liquidity runway into a short leadership update deck
-- **Material:** your outputs from Exercises 1 and 3 (the consolidated position and the liquidity runway), plus the liquidity commentary you drafted
+- **Workflow:** Turn the liquidity forecast and runway into a short leadership update deck
+- **File:** **Cash-Flow-Forecast.xlsx** — the same workbook from Exercise 3, now containing your `Runway` sheet, the `Forecast` sheet, and `Assumptions`
 - **Estimated time:** 15 minutes
-- **Difficulty:** Light — bring the numbers, let Copilot build the deck
+- **Difficulty:** Light — point Copilot at the workbook and let it build the deck
 
 ---
 
 ## Objective
 
-Close the loop: take the verified numbers you produced in Excel and have Copilot draft a clean, short cash & liquidity update deck for the CFO or ALCO. The judgment and the figures are already done — this is about turning them into something presentable in minutes instead of an afternoon.
+Close the loop: have Copilot draft a clean, short cash & liquidity update deck for the CFO or ALCO **straight from your forecast workbook** — no copy-pasting numbers into the prompt. The judgment and the figures are already done in Exercise 3; this is about turning that one file into something presentable in minutes.
 
 ## Before you start
 
-- [ ] Exercises 1 and 3 complete, with the consolidated position summary and the liquidity runway figures verified.
-- [ ] Have your one-paragraph liquidity commentary (Exercise 3, Step 7) handy.
+- [ ] Exercise 3 complete and saved — `Cash-Flow-Forecast.xlsx` now has the `Runway` sheet plus the verified `Forecast` and `Assumptions` sheets.
+- [ ] That workbook is in your **OneDrive** (Copilot in PowerPoint can only reference files saved in your Microsoft 365 environment).
 - [ ] PowerPoint open (web or desktop) with the **Copilot** pane available.
 
 ## What Copilot is doing here
 
-Copilot drafts slides from a prompt or from content you provide. **It does not decide the message** — you supply the verified numbers and the recommendation; Copilot arranges them. Treat the first draft as a starting layout, then tighten the words and **re-check every figure** against your Excel source before it leaves your hands.
+Copilot drafts slides grounded in a **file you point it at**. **It does not decide the message** — you reference the verified workbook and the recommendation; Copilot reads the sheets and arranges them. Treat the first draft as a starting layout, then tighten the words and **re-check every figure** against the workbook before it leaves your hands.
 
 ---
 
 ## Steps
 
-### Step 1 — Draft the deck from your outline (Copilot in PowerPoint)
-Paste your verified figures into the prompt so Copilot has real content to work with:
+### Step 1 — Draft the deck from your forecast workbook (Copilot in PowerPoint)
+In the Copilot pane, type `/` (or use **Add content**) to reference **Cash-Flow-Forecast.xlsx** so Copilot pulls the numbers itself:
 ```text
-Create a short, professional 5-slide cash & liquidity update for the CFO. Use these contents:
+Create a clean, executive 5-slide cash & liquidity update for the CFO using /Cash-Flow-Forecast.xlsx. Read the Assumptions sheet for the opening position, the $8M policy minimum, and the $12M operating buffer, and the Runway sheet for projected closing cash by week.
 Slide 1 — Title: "Weekly Cash & Liquidity Update" with this week's date and "ONB Treasury".
-Slide 2 — Cash Position: total USD-equivalent cash of [TOTAL], with a breakdown by bank ([JPM], [BofA], [Wells]) and a note on idle CAD.
-Slide 3 — 13-Week Liquidity Runway: opening position [OPENING], projected low point of [LOW] in Week [N], staying above / below the $8M policy minimum.
-Slide 4 — Forecast Accuracy & Drivers: top forecast variances and the main drivers of the Week 9 dip.
+Slide 2 — Opening Position & Policy Limits: opening cash, the $12M buffer, and the $8M policy minimum from the Assumptions sheet.
+Slide 3 — 13-Week Liquidity Runway: the projected low point and which week it falls in, and whether we stay above the $8M minimum.
+Slide 4 — Forecast Accuracy & Drivers: the largest forecast variances and what drives the dip.
 Slide 5 — Recommendation: ride it out vs. draw $5M on the revolver, with the trade-off in one line.
 Keep it clean and executive — minimal text, one idea per slide.
 ```
-Replace every `[...]` with the verified number from your workbook.
+> **Referencing a file:** the `/` reference (or **Add content**) points Copilot at the workbook in OneDrive so it reads the figures directly. You don't paste numbers — but you still verify every figure it pulls.
 
 ### Step 2 — Bring in the runway chart
 Copy the **13-Week Liquidity Runway** chart from your Excel runway sheet and paste it onto Slide 3. Then:
@@ -63,7 +63,7 @@ A 5-slide cash & liquidity update deck built from your verified Excel outputs, w
 
 ## Verify before you rely on it
 
-- [ ] Every number on every slide matches your verified Excel source — re-check the total cash, the low point, and the week number.
+- [ ] Every number on every slide matches `Cash-Flow-Forecast.xlsx` — re-check the opening position, the low point, and the week number against the `Runway` and `Assumptions` sheets.
 - [ ] The recommendation slide states the trade-off you actually intend, not a Copilot-invented one.
 - [ ] No figure appears on a slide that you haven't personally tied back to the workbook.
 - [ ] Titles state conclusions; the deck reads as *your* update, not a generic template.
