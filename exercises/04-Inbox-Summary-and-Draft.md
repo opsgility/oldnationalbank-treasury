@@ -26,12 +26,13 @@ Copilot summarizes and drafts over the mail you can open. **It does not send any
 ## Block A — Catch up & summarize
 
 ### Step 1 — Catch me up (Copilot pane)
+Starting in Copilot add a forward slash and start typing in the subject **Weekly Liquidity Review — Week of 6/8** then select it and then copy in the prompt
 ```text
 Catch me up on my Treasury email from the last few days. Group it by topic, and for each item give a one-line status, any deadline, the dollar figures mentioned, and who owns the next step. Flag anything that needs a decision from me.
 ```
 
 ### Step 2 — Thread to briefing
-Open the **Weekly Liquidity Review — Week of 6/8** thread and click **Summarize**, then refine:
+Open the **Weekly Liquidity Review — Week of 6/8** thread and click the **Summarize by Copilot** button, then click the **Ask Copilot** button:
 ```text
 Summarize this thread as a 5-bullet briefing for my manager: the cash position vs. target, the BofA sweep question and its resolution, the idle CAD decision, and the Week 9 forecast dip with the two options on the table. End with a single line: "Decision needed from you."
 ```
@@ -46,22 +47,23 @@ From this thread, list only the open action items as a checklist: who owns each,
 ## Block B — Draft & reply
 
 ### Step 4 — Reply in your voice
-Open the **Bank Fee Analysis — Q2 Account Analysis Statements** thread:
+Starting in Copilot add a forward slash and start typing in the subject **Bank Fee Analysis — Q2 Account Analysis Statements**. Then select it and copy in the prompt:
 ```text
 Draft a reply from me (Treasury Operations) confirming I'll consolidate the three banks' account analysis statements into one comparison workbook, calling out that I'll show per-unit pricing by bank, identify the top fee categories driving the 9% increase, and flag anything we pay for but don't use. Professional and concise, three short paragraphs. Do not send it — I'll review.
 ```
 Read it aloud. If it doesn't sound like you, tell Copilot what to change (shorter, warmer, more direct) — don't accept a draft that isn't your voice.
 
 ### Step 5 — Draft a sensitive note carefully
-Open the **Debt Covenant Certificate — Q2 Compliance** thread:
+Starting in Copilot add a forward slash and start typing in the subject **Debt Covenant Certificate — Q2 Compliance**. Then select it and copy in the prompt:
 ```text
 Draft a short cover note to the agent bank transmitting our Q2 covenant compliance certificate. State that we are in compliance with the minimum liquidity, fixed charge coverage, and total leverage covenants, that the supporting schedule is attached, and ask them to confirm receipt. Leave the actual ratio values as [FCCR], [Leverage], and [Liquidity] placeholders for me to fill in and verify. Formal tone.
 ```
 > **Why placeholders:** covenant figures are exactly what Copilot can get subtly wrong, and it's the firm's name on the certificate. You fill and verify every number.
 
 ### Step 6 — Turn an email into a standalone note
+Starting in Copilot add a forward slash and start typing in the subject **FX Exposure — CAD Repatriation**. Then select it and copy in the prompt:
 ```text
-Using the FX Exposure — CAD Repatriation thread, draft a short internal note to Corporate Tax summarizing the proposed move (keep the CAD in a CAD sweep, no conversion at the current ~0.73 rate) and asking them to confirm there are no intercompany or tax issues before we execute. Keep it to one short paragraph.
+Draft a short internal note to Corporate Tax summarizing the proposed move (keep the CAD in a CAD sweep, no conversion at the current ~0.73 rate) and asking them to confirm there are no intercompany or tax issues before we execute. Keep it to one short paragraph.
 ```
 
 ---
